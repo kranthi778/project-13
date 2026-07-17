@@ -513,3 +513,220 @@ Firewalls are a key security control that helps restrict unauthorized network ac
 In this project we. Managed firewall rules using **iptables** on an **Ubuntu Linux** system. We learned how to control network traffic by blocking ICMP requests restricting ports,
 filtering traffic, from specific IP addresses reviewing configured firewall rules and removing firewall rules when no longer required. 
 This project helped us understand how to use **iptables** to secure our network and protect our systems from access.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Project 13 – Evading IDS, Firewalls and Honeypots
+
+# Part 3 – Defensive Security Best Practices and SOC Perspective
+
+## Objective
+
+The main goal of this section is to learn how companies protect themselves from network attacks. They use firewalls, intrusion detection systems and security monitoring to do this. We will also look at the role of a Security Operations Center analyst. The Security Operations Center analyst watches for security problems figures out what is happening and responds to security incidents.
+
+---
+
+# Defense-in-Depth
+
+Defense-in-Depth is a security plan that uses layers to protect systems and networks. These layers work together to keep everything
+
+Some common security layers are:
+
+- Network Firewalls
+
+- Host Firewalls
+
+- Intrusion Detection Systems
+
+- Intrusion Prevention Systems
+
+- Antivirus and Endpoint Protection
+
+- Multi-Factor Authentication
+
+- Security Information and Event Management
+
+- Security Awareness Training
+
+No single security layer can stop every attack. But multiple layers make it harder for attackers to get in.
+
+![Alt text](screenshots/defense-in-depth-security-controls.png)
+
+**Defense-in-Depth Security Controls**
+
+```text
+defense-in-depth-security-controls.png
+```
+
+---
+
+# Firewall Best Practices
+
+To make a firewall work well you should:
+
+- Block ports that are not needed
+
+- Only allow necessary services
+
+- Use the Principle of Least Privilege
+
+- Check firewall rules
+
+- Get rid of rules that are not used
+
+- Log blocked connections
+
+- Keep firewall software up to date
+
+---
+
+# Intrusion Detection Best Practices
+
+An Intrusion Detection System works better when:
+
+- You watch network traffic all the time
+
+- You update Intrusion Detection System signatures often
+
+- You look into repeated alerts
+
+- You reduce false positives
+
+- You adjust detection rules
+
+- You watch for unusual network behavior
+
+---
+
+# Honeypot Best Practices
+
+Companies use honeypots to:
+
+- Catch attackers early
+
+- Learn about attacker techniques
+
+- Get threat intelligence
+
+- Keep attackers away from important systems
+
+A honeypot should never have sensitive business information.
+
+---
+
+# Indicators of Activity
+
+Security Operations Center analysts look for signs like:
+
+- Many failed login attempts
+
+- Port scanning
+
+- Brute-force attacks
+
+- Unusual traffic going out
+
+- Large data transfers
+
+- Unexpected changes to firewall rules
+
+- Many Intrusion Detection System alerts
+
+- Connections from suspicious IP addresses
+
+---
+
+# SOC Analyst Workflow
+
+A typical Security Operations Center workflow is:
+
+1. Watch security alerts.
+
+2. Check if the alert is real.
+
+3. Look into the systems.
+
+4. Analyze logs.
+
+5. Figure out how bad the problem is.
+
+6. Stop the threat.
+
+7. Get rid of activity.
+
+8. Fix affected systems.
+
+9. Write down what happened.
+
+
+![Alt text](screenshots/soc-incident-response-workflow.png)
+
+---
+
+# Incident Response Lifecycle
+
+The incident response process usually goes like this:
+
+1. Get
+
+2. Find the problem
+
+3. Look into the problem
+
+4. Stop the problem
+
+5. Get rid of the problem
+
+6. Fix everything
+
+7. Learn from what happened
+
+Following a plan helps companies reduce damage and improve security.
+
+---
+
+# Skills Demonstrated in Project 13
+
+In Project 13 I showed that I know about:
+
+- Linux firewall administration
+
+- Managing iptables rules
+
+- Filtering ICMP
+
+- Filtering ports
+
+- Controlling access based on IP
+
+- Checking firewall rules
+
+- Defensive network security
+
+- Basic Security Operations Center concepts
+
+- Security monitoring basics
+
+---
+
+# Key Takeaways
+
+- Firewalls help stop unauthorized access.
+
+- Intrusion Detection Systems find suspicious activity.
+
+- Intrusion Prevention Systems automatically block malicious traffic.
+
+- Honeypots help us learn about attackers.
+
+- Defense-in-Depth makes companies safer.
+
+- Always watching is important for modern Security Operations Center work.
+
+---
+
+# conclusion
+
+This project helped me understand security better. I learned about concepts and actually worked with firewalls. 
+I saw how network security controls protect systems and how Security Operations Center analysts use monitoring and incident response to find and fix security threats.
+ This knowledge will help me learn about Security Information and Event Management platforms like Splunk and work, in real-world Security Operations Centers.
